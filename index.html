@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/d640d3fe73.js"></script>
+    <script src="script.js" defer></script>
+    <title>Zomato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <button id="scroll-top">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <div id="app-tabs">
+    <div>
+      <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+      <h1>Delivery</h1>
+    </div>
+    <div>
+      <i class="fa fa-home" aria-hidden="true"></i>
+      <h1>Dining out</h1>
+    </div>
+    <div>
+      <i class="fa fa-heartbeat" aria-hidden="true"></i>
+      <h1>Nutrition</h1>
+    </div>
+  </div>
+
+<header>
+    <nav id="start" class="nav-comp">
+        <img src="logo.webp" alt="zomato logo">
+        <div id="search">
+            <i
+            class="fa fa-map-marker"
+            style="color: rgb(245, 112, 130)"
+            aria-hidden="true"
+          ></i>    
+          <select name="location" id="location">
+                <option value="Khammam">Khammam</option>
+            </select>
+            <i
+            class="fa fa-search"
+            style="color: rgb(137, 137, 137)"
+            aria-hidden="true"
+          ></i>
+          <input type="search" placeholder="search for restarent, cuisine or dish">
+        </div>
+        <div id="buttons">
+            <button><strong>Login</strong></button>
+            <button><strong>Signup</strong></button>
+        </div>
+    </nav>
+    <nav id="nav-mob">
+      <img src="logo.webp" alt="" />
+      <div class="buttons">
+        <button id="use-app">Use App</button>
+        <button><i class="fa fa-user" aria-hidden="true"></i></button>
+      </div>
+    </nav>
+  </header>
+<div class="tabs">
+    <button class="tab"  id="delivery">
+        <img
+        src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp"
+        alt=""
+      />
+      <h2>Delivery</h2>
+    </button>
+    <button class="tab" id="nutrition">
+        <img
+        src="https://b.zmtcdn.com/data/o2_assets/54cad8274d3c3ec7129e0808a13b27c31616582882.png?output-format=webp"
+        alt=""
+      />
+      <h2>Nutrition</h2>
+    </button>
+   
+</div>
+<hr>
+</header>
+<body>
+    <div class="tags">
+        <button class="tag">
+            <i class="fa fa-sliders" aria-hidden="true"></i> Filters
+          </button>
+          <button class="tag">Rating: 4.0+</button>
+          <button class="tag">Safe and Hygienic</button>
+          <button class="tag">Pure Veg</button>
+          <button class="tag">
+            <i class="fa fa-sliders" aria-hidden="true"></i> Delivery Time
+          </button>
+          <button class="tag">
+            <i class="fa fa-arrows-v" aria-hidden="true"></i>
+            Great offers
+          </button>
+    </div>
+    <div style="background-color: rgb(248, 248, 248)">
+        <div id="inspiration" class="main">
+          <h1>Inspiration for your first order</h1>
+          <div id="slider-container">
+            <button id="next">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+            <button id="previous">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </button>
+  
+            <div id="slider">
+              <div class="dish">
+                <img
+                  src="https://b.zmtcdn.com/data/homepage_dish_data/4/6e69685d22c94ffd42ccd7e70e246bd9.png"
+                  alt=""
+                />
+                <h3>Burger</h3>
+              </div>
+              <div class="dish">
+                <img
+                  src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+                  alt=""
+                />
+                <h3>Biryani</h3>
+              </div>
+              <div class="dish">
+                <img
+                  src="https://b.zmtcdn.com/data/homepage_dish_data/4/742929dcb631403d7c1c1efad2ca2700.png"
+                  alt=""
+                />
+                <h3>Chicken</h3>
+              </div>
+              <div class="dish">
+                <img
+                  src="https://b.zmtcdn.com/data/dish_images/c598d69f4864f3cba4b0de2d8efc0e521612436494.png"
+                  alt=""
+                />
+                <h3>Pizza</h3>
+              </div>
+              <div class="dish">
+                <img
+                  src="https://b.zmtcdn.com/data/homepage_dish_data/4/6e69685d22c94ffd42ccd7e70e246bd9.png"
+                  alt=""
+                />
+                <h3>Burger</h3>
+              </div>
+              <div class="dish">
+                <img
+                  src="https://b.zmtcdn.com/data/homepage_dish_data/4/6e69685d22c94ffd42ccd7e70e246bd9.png"
+                  alt=""
+                />
+                <h3>Burger</h3>
+              </div>
+              <div class="dish">
+                <img
+                  src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+                  alt=""
+                />
+                <h3>Biryani</h3>
+              </div>
+              <div class="dish">
+                <img
+                  src="https://b.zmtcdn.com/data/homepage_dish_data/4/742929dcb631403d7c1c1efad2ca2700.png"
+                  alt=""
+                />
+                <h3>Chicken</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <main id="restaurants" class="main">
+    <h1>Delivery restaurants in Khammam</h1>
+    <div id="restaurant-container">
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <div class="image-container">
+          <img 
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <span>50% off</span>
+        </div>
+      
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+  
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+      <div class="restaurant">
+        <img
+          src="https://b.zmtcdn.com/data/homepage_dish_data/4/76d788a2600b609bb0a08443e03df95b.png"
+          alt=""
+        />
+        <h2>Haveli</h2>
+        <span class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          5.0 (237 delivery reviews)
+        </span>
+        <div>North Indian, Chinese</div>
+        <div><i class="fa fa-inr" aria-hidden="true"></i> 150 or more</div>
+        <div>Closes in 5 mins.</div>
+      </div>
+    </div>
+  </main>
+  <div id="end-results" class="main">
+    <h1>End of Search Results</h1>
+    <img
+      src="https://b.zmtcdn.com/web/assets/search/6d548ba48f0e4e4b46c19ad4b15a3f011615379209.jpeg"
+      alt=""
+    />
+  </div>
+</body>
+</html>
